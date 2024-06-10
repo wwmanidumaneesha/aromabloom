@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aroma Bloom Cart</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Include Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="index.html">ABOUT</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">TESTIMONIALS</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+            <div class="logo">
+                <img src="logo.png" alt="Aroma Bloom">
+            </div>
+            <div class="nav-icons">
+                <i class="fas fa-search"></i>
+                <i class="fa-solid fa-cart-shopping"><a href="cart.html"></a></i>
+                <i class="fa-regular fa-user"></i>
+                <button class="login-btn">LOG IN</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="cart-section">
+            <div class="cart">
+                <h2>CART</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="product">
+                                <img src="mixed_berry.png" alt="Mixed Berry">
+                                <span>Mixed Berry</span>
+                            </td>
+                            <td class="quantity">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </td>
+                            <td class="price">$30</td>
+                            <td class="remove"><i class="fas fa-trash-alt"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="cart-total">
+                <h2>Cart Total</h2>
+                <div class="totals">
+                    <div class="total-item">
+                        <span>Sub total</span>
+                        <span>$20</span>
+                    </div>
+                    <div class="total-item">
+                        <span>Discount</span>
+                        <span>-$10</span>
+                    </div>
+                    <hr color="C9A489" size="1">
+                    <div class="total-item total">
+                        <span>Total</span>
+                        <span>$20</span>
+                    </div>
+                    <hr color="#C9A489" size="1">
+                </div>
+                <button class="checkout-btn">CHECKOUT</button>
+            </div>
+        </section>
+
+        <section class="highlights">
+            <div class="highlight">
+                <i class="fas fa-trophy"></i>
+                <p style="font-weight: bold;">High Quality</p>
+                <p>crafted from top materials</p>
+            </div>
+            <div class="highlight">
+                <i class="fas fa-shipping-fast"></i>
+                <p style="font-weight: bold;">Free Shipping</p>
+                <p>Order over $100</p>
+            </div>
+            <div class="highlight">
+                <i class="fas fa-headset"></i>
+                <p style="font-weight: bold;">24 / 7 Support</p>
+                <p>Dedicated support</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="logo-w.png" alt="Aroma Bloom">
+            </div>
+            <div class="footer-links">
+                <a href="#">NEW ARRIVALS</a>
+                <a href="#">ABOUT</a>
+                <a href="#">BLOG</a>
+                <a href="#">INFLUENCER</a>
+                <a href="#">CONTACT US</a>
+            </div>
+            <div class="footer-links2">
+                <a href="#">FACEBOOK</a>
+                <a href="#">INSTAGRAM</a>
+                <a href="#">LINKEDIN</a>
+            </div>
+            <div class="newsletter">
+                <p>Stay informed —0 we'll send you exclusive offers and updates</p>
+                <button class="signup-btn">SIGN UP</button>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Aroma Bloom. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

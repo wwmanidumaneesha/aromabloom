@@ -1,0 +1,342 @@
+body {
+    font-family: 'Zilla Slab', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFAF4; /* Changed to match your updated color */
+    color: #333;
+}
+
+header {
+    background-color: #F9F5EA;
+    padding: 5px 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Zilla Slab', serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.logo img {
+    width: 100px;
+    height: 90px;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-icons i {
+    font-size: 18px;
+    cursor: pointer;
+    color: #333; /* Set the default color for icons */
+}
+
+.nav-icons .fa-cart-shopping {
+    color: #333; /* Set the color for the cart icon specifically */
+}
+
+.login-btn {
+    border: 1px solid;
+    background-color: #F9F5EA;
+    border-radius: 30px;
+    border-color: black;
+    padding: 9px 14px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: 'Zilla Slab', serif;
+}
+
+.hero {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    padding: 60px 60px 60px 20px;
+    background-color: #F9F5EA;
+}
+
+.hero-content {
+    padding-left: 7em;
+    padding-right: 2em;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #BB713B;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.hero .tagline {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.hero-content2 {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 5px 7em 5px 7em;
+    padding-bottom: 10px;
+}
+
+.stats {
+    display: flex;
+    gap: 78px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat {
+    background-color: #C9A489;
+    width: 220px;
+    height: 110px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    display: flex; /* Add flexbox */
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.stat span {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.hero-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    padding-right: 8em;
+}
+
+.cart-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #FFFAF4;
+}
+
+.cart, .cart-total {
+    padding: 20px;
+    border: 1px solid #C9A489;
+    border-radius: 20px;
+}
+
+.cart {
+    width: 45%; /* Adjusted width to balance layout */
+    margin-bottom: 8px;
+}
+
+.cart-total {
+    width: 25%;
+}
+
+.cart h2, .cart-total h2 {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.cart table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart table th, .cart table td {
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.cart table th {
+    font-size: large;
+    font-weight: 600;
+}
+
+.cart table td.product {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart table td.product img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.cart table td.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the quantity buttons and value horizontally */
+    gap: 10px;
+}
+
+.cart table td.quantity span {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+}
+
+.cart table td.quantity button {
+    border: none;
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cart table td.price {
+    font-weight: 500;
+    text-align: right; /* Align the price to the right */
+}
+
+.cart table td.remove {
+    text-align: center; /* Center the remove icon horizontally */
+}
+
+.cart table td.remove i {
+    color: #e74c3c;
+    cursor: pointer;
+}
+
+.cart-total .totals {
+    margin-bottom: 20px;
+}
+
+.cart-total .total-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.cart-total .total-item.total {
+    font-weight: 700;
+}
+
+.checkout-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 25px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.highlights {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #C9A489;
+}
+
+.highlight {
+    text-align: center;
+}
+
+.highlight i {
+    font-size: 44px;
+    color: #fff;
+}
+
+.highlight p {
+    color: #fff;
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #0C0D12;
+    color: #fff;
+    margin-top: 30px;
+    padding: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: flex-start; /* Align items to the top */
+    gap: 100px; /* Adjust gap between columns */
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    height: 200px;
+    width: 180px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-links2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-links2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.newsletter {
+    text-align: center;
+    padding-left: 250px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.signup-btn {
+    background-color: #0C0D12;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border-color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+}
